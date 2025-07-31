@@ -1,0 +1,80 @@
+Class-28 JS Conditional Statement (Problems related if-else)
+=============================================================
+
+===========Problems===========
+Students Marks = 49
+
+80 - 100  = A+  if marks>= 80
+70 - 79   = A   if marks>= 70
+60 - 69   = A-  if marks>= 60
+50 - 59   = B   if marks>= 50
+40 - 49   = C   if marks>= 40
+33 - 39   = D   if marks>= 33
+00 - 32   = F   else fail
+================================================
+When we use if else.........
+==============================
+
+Get the even or odd number..........
+number = 79
+number = 3457865    n/2= 0 hole even, 0 na hole odd.
+======================================================
+https://www.w3resource.com/c-programming-exercises/conditional-statement/index.php?fbclid=IwY2xjawFzbN9leHRuA2FlbQIxMAABHd_VhwpOubkeCkfvoDVuiFKXOspvw9j6y_ReNR6k8yh1NgdUGTLMowiBxA_aem_Xxeztc8zQ9WMAAeE-Jhjdg
+
+1. write a js program to find maximum between two numbers.
+2. write a js program to check whether a number is negative, positive or zero.
+3. write a js program to check whether a number is divisible by 5 and 11 or not.
+4. write a js program to check whether a year is leap year or not.
+
+-----------------------
+1. write a js program to find maximum between two numbers.
+
+number1 = 30;
+number2 = 40;
+if(number1 > number2){
+    console.log('Number1 is the largest')
+}
+
+else{
+    console.log('Number2 is the largest')
+}
+
+2. write a js program to check whether a number is negative, positive or zero.
+-3 0 3
+let numbers;
+numbers = 40;
+if(numbers> 0){
+    console.log('Positive')
+}
+else if(numbers < 0){
+    console.log('Negative')
+}
+
+else{
+    console.log('This is Zero')
+}
+
+========================================
+3. write a js program to check whether a number is divisible by 5 and 11 or not.
+
+Let number;
+number = 30;
+if(number % 5 == 0 &&  number % 11 ==0){
+    console.log('The number is divisilbe by 5 and 11)
+}
+else{
+    console.log('The number is not divisilbe by 5 and 11)
+}
+
+4. write a js program to check whether a year is leap year or not.
+
+let years;
+years = 2033;
+
+if(years % 4 == 0){
+    console.log('This is Leap Year');
+}
+
+else{
+    console.log('This is Leap Year');
+}
